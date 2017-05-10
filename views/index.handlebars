@@ -2,7 +2,7 @@
     <div class="column">
         <nav class="panel">
             <h2 class="panel-heading">Menu Board</h2>
-            {{#each burger}} {{#unless this.devoured}}
+            {{#each Burger}} {{#unless this.devoured}}
             <li class="panel-block">
                 <form action="/{{this.id}}?_method=PUT" method="POST">
                     <input type="hidden" name="devoured" value="true">
