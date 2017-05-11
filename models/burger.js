@@ -10,7 +10,6 @@ module.exports = function (sequelize, DataTypes) {
         devoured: {
             type: DataTypes.BOOLEAN,
             defaultValue: false
-        }
-    });
+        }});
     return Burger;
 };
